@@ -1,0 +1,11 @@
+@EnergyMonitor_HostAddress = http://localhost:5262
+
+GET {{EnergyMonitor_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{EnergyMonitor_HostAddress}}/todos/1
+Accept: application/json
+
+###
